@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Progress Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Progress Tracker</h1>
+        <form id="progressForm">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            
+            <label for="progress">Progress:</label>
+            <textarea id="progress" rows="4" required></textarea>
+            
+            <button type="submit">Save Progress</button>
+        </form>
+        
+        <h2>Progress Entries</h2>
+        <ul id="entriesList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
